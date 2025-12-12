@@ -59,7 +59,7 @@ export const deleteProduct = async (req, res) =>{
     const productId = req.params.id
 
     try {
-        const product  = await product.findById(userId)
+        const product  = await product.findById(productId)
         if(!product) return res.status(404).json({
             message:"product doesnt exist"})
             await user.deleteOne()
