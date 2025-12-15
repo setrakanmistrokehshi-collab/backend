@@ -63,10 +63,6 @@ mongoose.connect(process.env.MONGODB_URL)
 
   // ENABLE CORS TO CONNECT MY BACKEND
   const allowedOrigins = [
-  "https://hgsccdigitalskills.com.ng",
-  "https://www.hgsccdigitalskills.com.ng",
-  "http://hgsccdigitalskills.com.ng",
-  "http://www.hgsccdigitalskills.com.ng",
   "http://localhost:5000",
   "https://hgsccdigitalskills.vercel.app",
 ];
